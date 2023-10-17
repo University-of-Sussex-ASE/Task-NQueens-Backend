@@ -40,6 +40,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.humanize',
     'django.contrib.sites',
+
+    # Custom Apps
+    'API',
 ]
 
 # This config allows data sharing between two domains by whitelisting all sources of requests
